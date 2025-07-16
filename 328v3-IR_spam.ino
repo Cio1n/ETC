@@ -1,4 +1,4 @@
-#define IR_pin 5
+#define IR_pin 2
 #include <IRremote.h>
 int irdl = 5;
 void send_nec_ir_code(uint32_t code) {
